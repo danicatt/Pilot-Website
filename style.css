@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+	margin: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+}
+
+
+body {
+	margin: 0 auto;
+	font-size: 62.5%;
+}
+
+/* First Navbar */
+.firstnav {
+    background-color: #f7f7f7;
+	width: 100%;
+    }
+
+.navbar1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    }
+    
+.navbar1 a {
+    text-decoration: none;
+    color: #b7b7b8;;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+	letter-spacing: .6px;
+    }
+	
+.searchbar {
+	border: 0;
+	background-color: #f7f7f7;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+	color: #b7b7b8;
+	padding: 20px;
+	border-left: 1px solid #d4d4d5;
+}
+
+#telnumber {
+    padding: 20px;
+    color: rgb(168, 165, 165);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    }
+    
+/* 2nd Navbar */
+
+nav {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+	width: 100%;
+    background-color: rgb(255,255,255);
+    text-decoration: none;
+    }
+
+.navbar2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+	letter-spacing: .6px;  
+    }
+
+.navbar2 a {
+    display: block;
+    float:left;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    }
+
+#home {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    border: 2px solid #000;
+    border-color: black;
+    display: block;
+    float:left;
+    color: black;
+    padding: 16px;
+    margin-top:4px;
+    }
+    
+#logo {
+    display:block;
+    flex: flex-start;
+    width:10px;
+    padding: 10px;
+    margin: 4px;
+    }
+	
+	/* Header */
+.headercontainer {
+	background: url("slideimg.png");
+	width: 100%;
+	padding: 20%;	
+	color: white;
+	text-align: center;
+	}
+	
+.headertitle {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 74px;
+	letter-spacing: 12px;
+	padding: 12px;
+}
+	
+.headertext {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 19px;
+	letter-spacing: 8px;
+	padding-bottom: 30px;
+}
+
+.headerbtn {
+	padding: 20px 40px;
+	background-color: rgba(0,0,0,0);
+	border: 2px #ffffff solid;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 800;
+	font-size: 16px;
+	color: white
+}
+
+/* Main Section */
+
+.parent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.child {
+	border: 1px solid #000000;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 10px;
+	max-width: 20%;
+	
+}
+
+.child h3 {
+	font-weight: 800;
+	padding-top: 8px;
+}
+.child h4 {
+	font-weight: 400;
+	padding: 5px;
+}
+
+.child p {
+	padding-top: 10px;
+}
+
+.money {
+	font-weight: 800;
+	color: #589ec2;
+}
